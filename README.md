@@ -4,4 +4,4 @@
 
 ![](images/2018110100626.png)
 
-展示链接(https://wjup.gitee.io/resume)
+展示[链接](https://wjup.gitee.io/resume)
