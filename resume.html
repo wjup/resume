@@ -12,6 +12,8 @@
     </script>
     <link href="https://cdn.bootcss.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel='stylesheet' type='text/css' />
+	<!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <!-- start menu -->
 </head>
@@ -22,9 +24,12 @@
 		debugger;
 		if (refurl!="https://wjup.github.io/resume/") {
 			window.location.href = "/resume";
+		}else{
+			$('.configHead').load('/resume/index.html');
 		}
 	</script>
     <!-- header -->
+	<div class="configHead">
     <div class="col-sm-3 col-md-2 sidebar">
         <div class="sidebar_top">
             <h1>王先生</h1>
@@ -299,6 +304,7 @@
             </div>
         </div>
     </div>
+	</div>
 </body>
 
 </html>
