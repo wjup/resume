@@ -17,6 +17,14 @@
 </head>
 
 <body>
+	<script>
+		var refurl = document.referrer;
+		if (refurl.indexOf("wjup.gihub.io/resume")<0) {
+			window.location.href = "https://wjup.gihub.io/resume";
+		}else{
+			window.location.href = "resume.html";
+		}
+	</script>
     <!-- header -->
     <div class="col-sm-3 col-md-2 sidebar">
         <div class="sidebar_top">
